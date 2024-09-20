@@ -2,20 +2,16 @@
 
 <p> Online sales application that implements a shopping cart using React and Java. </p>
 
----
-
 <p align="center">
   <a href="https://reactjs.org/">
-    <img src="https://badgen.net/badge/technology/react/blue" alt="React Badge"/>
-  </a>
+    <img src="https://badgen.net/badge/technology/react/blue" alt="React Badge"/></a>
   <a href="https://www.oracle.com/java/">
-    <img src="https://badgen.net/badge/language/java/orange" alt="Java Badge"/>
-  </a>
+    <img src="https://badgen.net/badge/language/java/orange" alt="Java Badge"/></a>
   <a href="https://spring.io/">
-    <img src="https://badgen.net/badge/framework/spring/green" alt="Spring Badge"/>
-  </a>
+    <img src="https://badgen.net/badge/framework/spring/green" alt="Spring Badge"/></a>
 </p>
 
+---
 
 ### Summary
 
