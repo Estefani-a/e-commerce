@@ -2,6 +2,8 @@
 
 <p> Online sales application that implements a shopping cart using React and Java. </p>
 
+---
+
 <p align="center">
   <a href="https://reactjs.org/">
     <img src="https://badgen.net/badge/technology/react/blue" alt="React Badge"/>
