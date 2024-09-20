@@ -1,5 +1,6 @@
 <h1  align="center"> e-commerce </h1>
-Online sales application that implements a shopping cart using React and Java.
+
+<p> Online sales application that implements a shopping cart using React and Java. </p>
 
 <p align="center">
   <a href="https://reactjs.org/">
