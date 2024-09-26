@@ -20,12 +20,12 @@
 - [Acerca del proyecto](#acerca-del-proyecto)
 - [Getting Started](#getting-started)
   - [Requisitos previos](#requisitos-previos)
-  - [Ejecución](#ejecucion)
+  - [Ejecucion](#ejecucion)
 - [Controladores](#controladores)
   - [Documentación de Endpoints](#documentacion-de-endpoints)
-  - [Descripción](#descripcion)
+  - [Descripcion](#descripcion)
 - [Base de datos](#base-de-datos)
-- [Documentación](#documentacion)
+- [Documentacion](#documentacion)
 - [Autor](#autor)
 
 ---
@@ -52,7 +52,7 @@ El objetivo principal de este proyecto es implementar un sistema de carrito de c
 - Servicios REST
 - Base de datos SQL
 
-### Ejecución
+### Ejecucion
 ### En Apache NetBeans:
 
 #### 1. Abrir el Proyecto
@@ -84,7 +84,7 @@ Los endpoints se encuentran documentados en **Postman** y pueden ser consultados
 
 Los endpoints se encuentran documentados en **Swagger** y se puede visualizar la documentacion una vez que es ejecutado el backend, a traves del siguiente enlace: [Documentacion Swagger](http://localhost:8080/swagger-ui/index.html#/)
 
-### Descripción
+### Descripcion
 
 #### 1. CartController:
 - **GET `/cart/get`** 
