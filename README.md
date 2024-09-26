@@ -23,6 +23,7 @@
   - [Ejecución](#ejecucion)
 - [Controladores](#controladores)
 - [Base de datos](#base-de-datos)
+- [Documentacion](#documentacion)
 - [Autor](#autor)
 
 ---
@@ -73,12 +74,73 @@ El objetivo principal de este proyecto es implementar un sistema de carrito de c
 - Haz clic derecho sobre el nombre del proyecto en el panel de proyectos.
 - Selecciona la opción `Run` para ejecutar todo el proyecto.
 
+
+
 ## Controladores
-Los endpoints se encuentran documentados en **Postman** y pueden ser consultados en detalle a traves del siguiente enlace: 
+Los endpoints se encuentran documentados en **Postman** y pueden ser consultados en detalle a traves del siguiente enlace: [Documentación Postman](https://documenter.getpostman.com/view/13720417/2sAXqy2Jmo)
 
 Los endpoints tambien se encuentran documentados en **Swagger**, una vez que es ejecutado el backend, a traves del siguiente enlace:
 
+### Descripción
+
+#### 1. CartController:
+- **GET `/cart/get`** 
+  Recupera y devuelve una lista todos los carritos de compras almacenados en la base de datos.
+
+- **GET `/cart/get/{id}`**  
+  Busca un carrito por su ID y devuelve el carrito correspondiente; si no se encuentra, devuelve `null`.
+
+- **POST `/cart/add`**  
+  Crea un nuevo carrito, estableciendo su estado a **ABIERTO**, y guarda el carrito en la base de datos, respondiendo con un mensaje de éxito o error.
+
+- **PUT `/cart/update`**  
+  Actualiza un carrito existente en la base de datos y devuelve el carrito actualizado.
+
+- **DELETE `/cart/delete/{id}`**  
+  Elimina el carrito con el ID especificado de la base de datos, sin devolver contenido.
+
+
+#### 2. DetailController
+
+- **GET `/detail/{id}`**  
+  Obtiene los productos asociados a un carrito específico utilizando su ID. Devuelve un conjunto de productos o un conjunto vacío si el carrito no se encuentra.
+
+- **POST `/detail/add`**  
+  Agrega un producto a un carrito existente, respondiendo con el carrito actualizado o un mensaje de error.
+
+- **DELETE `/detail/remove`**  
+  Elimina un producto del carrito especificado. Devuelve un mensaje de éxito junto con el carrito actualizado o un error si el producto no se encuentra.
+
+- **POST `/buy`**  
+  Cambia el estado de un carrito a **CERRADO** cuando se finaliza la compra, devolviendo un mensaje de éxito o un error si el carrito no se encuentra.
+
+#### 3. ProductController
+
+- **GET `/get`**  
+  Recupera y devuelve una lista de todos los productos almacenados en la base de datos.
+
+- **GET `/get/{id}`**  
+  Busca un producto por su ID y lo devuelve; si no se encuentra, responde con un error 404.
+
+- **POST `/save`**  
+  Crea y guarda un nuevo producto en la base de datos, devolviendo el producto creado con estado 201 (CREATED).
+
+- **PUT `/update/{id}`**  
+  Actualiza un producto existente y devuelve un mensaje de éxito o un error si el producto no se encuentra.
+
+- **`/delete/{id}`**  
+  Elimina el producto con el ID especificado, respondiendo con un mensaje de éxito o un error si el producto no se encuentra.
+
+
+
 ## Base de datos
+
+- El proyecto tiene una base de datos MySQL que corre en el puerto 3306, esta base de datos se encuentra descripta en el archivo `application.properties` y se llama **productcard**, la cual debe ser creada antes de ejecutar el proyecto Spring Boot.
+- Para crear y ejecutar la base de datos MySQL se deben seguir las instrucciones que se encuentran en la documentacion del proyecto (link a documentacion).
+
+## Documentacion 🗂
+
+Puedes consultar la documentacion completa del proyecto en este [enlace](agregarlink).
 
 ## Autor 👩🏻‍💻
 
