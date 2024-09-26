@@ -77,13 +77,12 @@ El objetivo principal de este proyecto es implementar un sistema de carrito de c
 - Selecciona la opción `Run` para ejecutar todo el proyecto.
 
 
-
 ## Controladores
 
 ### Documentacion de Endpoints
 Los endpoints se encuentran documentados en **Postman** y pueden ser consultados en detalle a traves del siguiente enlace: [Documentacion Postman](https://documenter.getpostman.com/view/13720417/2sAXqy2Jmo)
 
-Los endpoints se encuentran documentados en **Swagger** y se puede visualizar la documentacion una vez que es ejecutado el backend, a traves del siguiente enlace: [Documentacion](link)
+Los endpoints se encuentran documentados en **Swagger** y se puede visualizar la documentacion una vez que es ejecutado el backend, a traves del siguiente enlace: [Documentacion Swagger](http://localhost:8080/swagger-ui/index.html#/)
 
 ### Descripción
 
@@ -136,15 +135,14 @@ Los endpoints se encuentran documentados en **Swagger** y se puede visualizar la
   Elimina el producto con el ID especificado, respondiendo con un mensaje de éxito o un error si el producto no se encuentra.
 
 
-
 ## Base de datos
 
 - El proyecto tiene una base de datos MySQL que corre en el puerto 3306, esta base de datos se encuentra descripta en el archivo `application.properties` y se llama **productcard**, la cual debe ser creada antes de ejecutar el proyecto Spring Boot.
-- Para crear y ejecutar la base de datos MySQL se deben seguir las instrucciones que se encuentran en la documentacion del proyecto (link a documentacion).
+- Para crear y ejecutar la base de datos MySQL se deben seguir las instrucciones que se encuentran en la documentacion del proyecto que se puede consultar en el siguiente [enlace](https://docs.google.com/document/d/1MX4d5Cg2YuwSd9SPIqJOvRyBcUSvnwul8-zbhCcWmPA/edit?usp=sharing).
 
 ## Documentacion 🗂
 
-Puedes consultar la documentación completa del proyecto en este [enlace](agregarlink).
+Puedes consultar la documentación completa del proyecto en este [enlace](https://docs.google.com/document/d/1MX4d5Cg2YuwSd9SPIqJOvRyBcUSvnwul8-zbhCcWmPA/edit?usp=sharing).
 
 ## Autor 👩🏻‍💻
 
