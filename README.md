@@ -22,8 +22,10 @@
   - [Requisitos previos](#requisitos-previos)
   - [Ejecución](#ejecucion)
 - [Controladores](#controladores)
+  - [Documentación de Endpoints](#documentacion-de-endpoints)
+  - [Descripción](#descripcion)
 - [Base de datos](#base-de-datos)
-- [Documentacion](#documentacion)
+- [Documentación](#documentacion)
 - [Autor](#autor)
 
 ---
@@ -50,7 +52,7 @@ El objetivo principal de este proyecto es implementar un sistema de carrito de c
 - Servicios REST
 - Base de datos SQL
 
-### Ejecucion
+### Ejecución
 ### En Apache NetBeans:
 
 #### 1. Abrir el Proyecto
@@ -142,7 +144,7 @@ Los endpoints se encuentran documentados en **Swagger** y se puede visualizar la
 
 ## Documentacion 🗂
 
-Puedes consultar la documentacion completa del proyecto en este [enlace](agregarlink).
+Puedes consultar la documentación completa del proyecto en este [enlace](agregarlink).
 
 ## Autor 👩🏻‍💻
 
