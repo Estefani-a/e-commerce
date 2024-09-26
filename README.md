@@ -4,9 +4,13 @@
 
 <p align="center">
   <a href="https://www.oracle.com/java/">
-    <img src="https://badgen.net/badge/language/java/orange" alt="Java Badge"/></a>
+    <img src="https://badgen.net/badge/language/java/red" alt="Java Badge"/></a>
   <a href="https://spring.io/">
     <img src="https://badgen.net/badge/framework/spring/green" alt="Spring Badge"/></a>
+   <a href="https://www.postman.com/">
+    <img src="https://badgen.net/badge/framework/postman/orange" alt="Postman Badge"/></a>
+  <a href="https://www.postman.com/">
+    <img src="https://badgen.net/badge/framework/netBeans/pink" alt="Apache Net Beans Badge"/></a>
 </p>
 
 ---
@@ -32,9 +36,9 @@ El objetivo principal de este proyecto es implementar un sistema de carrito de c
 
 #### Herramientas requeridas 🛠:
 - Java JDK 17+
-- IDE: Eclipse, Apache NetBeans, IntelliJ IDEA o otro de su preferencia.
 - Spring Framework
 - Postman
+- IDE: Eclipse, Apache NetBeans, IntelliJ IDEA o otro de su preferencia.
 
 #### Tecnologias utilizadas 💻:
 - Java 17
@@ -76,6 +80,6 @@ Los endpoints tambien se encuentran documentados en **Swagger**, una vez que es 
 
 ## Base de datos
 
-## Autor
+## Autor 👩🏻‍💻
 
 Estefanía Sassone
