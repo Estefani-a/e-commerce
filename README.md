@@ -77,9 +77,11 @@ El objetivo principal de este proyecto es implementar un sistema de carrito de c
 
 
 ## Controladores
-Los endpoints se encuentran documentados en **Postman** y pueden ser consultados en detalle a traves del siguiente enlace: [Documentación Postman](https://documenter.getpostman.com/view/13720417/2sAXqy2Jmo)
 
-Los endpoints tambien se encuentran documentados en **Swagger**, una vez que es ejecutado el backend, a traves del siguiente enlace:
+### Documentacion de Endpoints
+Los endpoints se encuentran documentados en **Postman** y pueden ser consultados en detalle a traves del siguiente enlace: [Documentacion Postman](https://documenter.getpostman.com/view/13720417/2sAXqy2Jmo)
+
+Los endpoints se encuentran documentados en **Swagger** y se puede visualizar la documentacion una vez que es ejecutado el backend, a traves del siguiente enlace: [Documentacion](link)
 
 ### Descripción
 
@@ -128,7 +130,7 @@ Los endpoints tambien se encuentran documentados en **Swagger**, una vez que es 
 - **PUT `/update/{id}`**  
   Actualiza un producto existente y devuelve un mensaje de éxito o un error si el producto no se encuentra.
 
-- **`/delete/{id}`**  
+- **DELETE `/delete/{id}`**  
   Elimina el producto con el ID especificado, respondiendo con un mensaje de éxito o un error si el producto no se encuentra.
 
 
